@@ -4,7 +4,7 @@ from time import sleep
 
 os.system("")
 
-# Deze functie telt bijde cijfers op
+# Deze functie telt/deelt/trekt af  bijde cijfers op
 def plus(x, y):
     return x + y
 
