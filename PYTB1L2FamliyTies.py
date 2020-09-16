@@ -21,7 +21,7 @@ class style():
 naam = input(style.GREEN + "Wat is jou naam?\n> ")
 leefttijd = input(style.YELLOW + "Wat is jou leeftijd?\n> ")
 woonplaats = input(style.MAGENTA + "Wat is jou woonplaats?\n> ")
-afstand = input(style.GREEN + "Wat is jou aftstand naar school?\n> ")
+afstand = input (style.GREEN + "Wat is jou aftstand naar school?\n> ")
 hobby = input(style.CYAN + "Wat is jou hobby?\n> ")
 
 # Output
