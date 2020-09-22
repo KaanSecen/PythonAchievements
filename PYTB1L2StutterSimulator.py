@@ -3,13 +3,17 @@
 def stutter(word):
 	return (3*(word[:2]+'... '))+word
 
-word = input()
-print(stutter(word))
 
-input_woord = input("type het woord!")
-lijst = input_woord.split(" ")
+woordteller = 0
 
-lijstshow = list(lijst)
+zin = input("type het woord!")
+woorden =zin.split(" ")
 
-print(lijstshow)
+s = ' '
 
+
+for woord in woorden:
+	if len(woord) > 3:
+		print(3*(woord[:2])+'... ' +woord)
+	if len(woord) < 3:
+		print(woord)
